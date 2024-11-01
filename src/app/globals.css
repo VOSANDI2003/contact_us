@@ -1,21 +1,154 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Import Tailwind CSS if it's not already imported */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Custom styles for this Contact Us page */
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #013F4D; /* Dark teal background color for the page */
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom:20px;
+    padding-left: 4cm;
+    padding-right: 4cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    box-sizing: border-box;
+  
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.text-white1{
+    color:#130163 ;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 10px;
+
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.text-white2{
+    color:#130163 ;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 10px;
+      
+}
+
+.text-white3{
+    color:#130163 ;
+    margin-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 10px;
+
+}
+
+.blocktext-blue{
+    font-style: normal;
+    font-size: 18px;
+    color: #03133d;
+    background-color: #1ec8de10;
+    
+}
+
+
+
+
+.blocktext-white{
+    font-style: normal;
+    font-size: 18px;
+    color: #03133d;
+    background-color: #1ec8de10;
+}
+.w-full{
+    padding-right: 4CM;
+}
+
+
+.text-4xl{
+  font-size:1cm;
+  color: #43dbfd;
+  margin-right: 2cm;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.bg-teal-700{
+  font-size: medium;
+}
+
+/* Form container */
+.bg-teal-800 {
+    background-color: #013F4D; /* Page background color */
+}
+
+.bg-teal-700 {
+    background-color: #015A63; /* Slightly lighter teal for form container */
+}
+
+.text-blue {
+    color: #020a1f; /* A light blue color for labels */
+}
+
+input, textarea {
+    background-color: #c9eaf5;
+    color: #333;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 14px;
+}
+
+
+
+/* Button styling */
+button {
+    background-color: #031f3ba4; /* Dark blue for the submit button */
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    border: rgb(1, 1, 59);
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #003d80; /* Darker blue on hover */
+    margin-bottom:2cm;
+}
+.w-fullbg-blue-800{
+    padding-bottom: 0.25CM;
+    margin-bottom: 1CM;
+}
+
+/* Social media links */
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.w-fullbg-blue-800{
+    text-decoration:lightblue ;
+}
+
+/* Responsive styles */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 12px;
+    }
 }

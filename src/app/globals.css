@@ -140,6 +140,16 @@ a:hover {
 
 .w-fullbg-blue-800{
     text-decoration:lightblue ;
+
+}
+
+.Contact_numbers{
+    padding-top: 0.5cm;
+}
+
+.text-white5{
+    padding-left: 3.5cm;
+    
 }
 
 /* Responsive styles */

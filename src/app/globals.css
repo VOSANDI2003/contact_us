@@ -50,22 +50,22 @@ html, body {
 .blocktext-blue{
     font-style: normal;
     font-size: 18px;
-    color: #c3c9d8;
+    color: #BCECF5;
     padding-top: 0.2cm;
+    stroke: #020a1f;
     
     
 }
-
-
-
 
 .blocktext-white{
     font-style: normal;
     font-size: 18px;
-    color: #c3c9d8;
+    color: #BCECF5;
     padding-top: 0.3cm;
+    stroke: #020a1f;
    
 }
+
 .w-full{
     padding-right: 4CM;
 }

@@ -51,7 +51,8 @@ html, body {
     font-style: normal;
     font-size: 18px;
     color: #c3c9d8;
-    background-color: #1ec8de10;
+    padding-top: 0.2cm;
+    
     
 }
 
@@ -62,7 +63,8 @@ html, body {
     font-style: normal;
     font-size: 18px;
     color: #c3c9d8;
-    background-color: #1ec8de10;
+    padding-top: 0.3cm;
+   
 }
 .w-full{
     padding-right: 4CM;
@@ -73,7 +75,7 @@ html, body {
   font-size:1cm;
   color: #43dbfd;
   margin-right: 2cm;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'inkut antiqua';
   
 }
 

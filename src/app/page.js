@@ -43,11 +43,13 @@ const ContactUs = () => {
                         <a href="#" className="text-white2"><i className="fab fa-instagram"></i> Instagram</a>
                         <a href="#" className="text-white3"><i className="fab fa-twitter"></i> Twitter</a>
                     </div>
-                    <div className="text-white text-center">
-                        <p>Contact numbers:</p> 
+                    <div className="Contact_numbers text-center">
+                        <p>Contact numbers: +94 456789123</p> 
+                        </div>
+                        <div className="text-white5 text-center">
                         <p>+94 123456789</p>
                         </div>
-                        <div className="text-white text-center">
+                        <div className="text-white5 text-center">
                         <p>+94 567891234</p>
                     </div>
                 </div>

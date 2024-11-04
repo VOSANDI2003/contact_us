@@ -5,20 +5,52 @@ import './globals.css';
 
 const ContactUs = () => {
     return (
+        
         <>
-            <Head>
-                <title>Contact Us</title>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-                <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-            </Head>
+        <div className="header">
+        <header className="bg-white shadow-md p-4">
+      <nav className="flex justify-between items-right">
+        <div className="text-lg font-bold">GEN Z</div>
+        <div className="flex space-x-4">
+          <a href="#" className="home">Home</a>
+          <a href="#" className="products">Products</a>
+          <a href="#" className="contact">Contact</a>
+        </div>
+     {/*buttons*/}
+     
+     <div className="button-container">
+  <button className="login py-2 border rounded-md">Log In</button>
+  <button className="signup px-4 py-2 bg-blue-600 text-white border rounded-md">Sign Up</button>
+</div>
+
+      </nav>
+    </header></div>
+        
+      {/* Top Section */}
+      <section className="hero-section flex flex-col lg:flex-row items-center justify-between">
+        <div className="hero-content text-center lg:text-left p-4 lg:w-1/2">
+          <h1 className="text-4xl lg:text-5xl font-bold mb-4"></h1>
+          
+        </div>
+        <div className="hero-image lg:w-1/2 p-4">
+        <div className='image lg:text-right'></div>
+          <img src="../../contact.jpg" className=" h-auto"  width={1400} // Set the desired width
+        height={300} />
+          
+        </div>
+      </section>
+      
+
+
+        
             <div className="bg-teal-800 flex items-center justify-center min-h-screen">
                 <div className="bg-teal-700 p-10 rounded-lg shadow-lg w-full max-w-lg">
-                    <h1 className="text-4xl font-bold text-white mb-6">CONTACT US</h1>
+                   
                     <form>
                         <div className="grid grid-cols-2 gap-4 mb-4">
                             <div>
-                                <label className="blocktext-blue   mb-2" htmlFor="first-name">First name</label>
-                                <input type="text" id="first-name" className="w-full p-2  border border-gray-300 rounded" />
+                                <label className="blocktext-blue    mb-2" htmlFor="first-name">First name</label>
+                                <input type="text " id="first-name" className="w-full p-2  border border-gray-300 rounded" />
                             </div>
                             <div>
                                 <label className="blocktext-white mb-2" htmlFor="last-name">Last name</label>
@@ -53,9 +85,23 @@ const ContactUs = () => {
                         <p>+94 567891234</p>
                     </div>
                 </div>
+                 {/* Footer */}
+    <footer className="bg-gray-800 text-white py-8">
+    <div className="container mx-auto text-center">
+      <p>&copy; 2024 ICT Learning Platform. All rights reserved.</p>
+      <div className="mt-4">
+        <a href="#" className="mx-2">Privacy Policy</a>
+        <a href="#" className="mx-2">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
             </div>
+            
         </>
+        
     );
+   
 };
 
 export default ContactUs;

@@ -7,7 +7,7 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
-    background-color: #013F4D; /* Dark teal background color for the page */
+    background-color: #010b29; /* Dark teal background color for the page */
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 30px;
@@ -20,9 +20,48 @@ html, body {
   
 }
 
+
+/*HEADER*/
+
+
+.text-lg{
+    color: #43dbfd;
+    font-style: bold;
+    font-family: slab serif;
+    font-size: 0.75cm;
+    padding-left: 20cm;
+    margin-top: -2cm;
+}
+
+.home{
+     color:white ;
+     padding-left: 20cm;
+
+}
+.products{
+    padding-left: 20px;
+}
+
+.contact{
+    padding-left: 20px;
+}
+
+
+    
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    align-items: center; /* Aligns buttons vertically in the middle */
+    margin-left: 20cm;
+    margin-bottom: 5px;
+  }
+  
+
+
 .text-white1{
     color:#130163 ;
-    margin-left: 0px;
+    margin-left: 5px;
     margin-top: 0px;
     padding-top: 0px;
     padding-right: 10px;
@@ -53,6 +92,7 @@ html, body {
     color: #BCECF5;
     padding-top: 0.2cm;
     stroke: #020a1f;
+    padding-left: 5px;
     
     
 }
@@ -63,6 +103,7 @@ html, body {
     color: #BCECF5;
     padding-top: 0.3cm;
     stroke: #020a1f;
+    padding-left: 5px;
    
 }
 
@@ -72,12 +113,13 @@ html, body {
 
 
 .text-4xl{
-  font-size:1.25cm;
+  font-size:2.25cm;
   color: #43dbfd;
   margin-right: 2cm;
   font-family:'inkut antiqua';
   
 }
+
 
 .bg-teal-700{
   font-size: medium;
@@ -104,6 +146,7 @@ input, textarea {
     border: 1px solid #ccc;
     width: 100%;
     font-size: 14px;
+    margin-left: 15px;
 }
 
 
@@ -118,6 +161,8 @@ button {
     border-radius: 5px;
     border: rgb(1, 1, 59);
     transition: background-color 0.2s;
+    margin-left: 5px;
+
 }
 
 button:hover {
@@ -147,10 +192,11 @@ a:hover {
 
 .Contact_numbers{
     padding-top: 0.5cm;
+    padding-left:5px 
 }
 
 .text-white5{
-    padding-left: 3.5cm;
+    padding-left: 3.6cm;
     
 }
 
@@ -164,3 +210,42 @@ a:hover {
         font-size: 12px;
     }
 }
+
+footer {
+    background-color: #0d141e; /* Dark gray background */
+    color: white; /* White text color */
+    padding: 60px 00px; /* Vertical padding */
+    text-align: center; /* Center-align text */
+    
+    margin-top: 0px;
+    margin-right: -2px;
+    
+  }
+  
+  footer p {
+    text-align: center; /* Remove default margins */
+    font-size: 16px; /* Font size */
+  }
+  
+  footer .footer-links {
+    margin-top: 200px; /* Space between the text and the links */
+   
+  }
+  
+  footer a {
+    color: #60a5fa; /* Light blue color for links */
+    margin: 0 15px; /* Horizontal spacing between links */
+    text-decoration: none; /* Remove underline */
+    
+  }
+  
+  footer a:hover {
+    color: #41679c; /* Slightly darker blue on hover */
+  }
+  
+  @media (min-width: 768px) {
+    footer {
+      text-align: center; /* Left-align for larger screens */
+      padding-left: 20px; /* Slight left padding */
+    }
+  } 

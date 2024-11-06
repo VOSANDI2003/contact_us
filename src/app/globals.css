@@ -60,28 +60,28 @@ html, body {
 
 
 .text-white1{
-    color:#130163 ;
+    color:#8fdced ;
     margin-left: 5px;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: 10px;
+    padding-top: 10px;
     padding-right: 10px;
 
 }
 
 .text-white2{
-    color:#130163 ;
+    color:#910459 ;
     margin-left: 5px;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: 10px;
+    padding-top: 10px;
     padding-right: 10px;
       
 }
 
 .text-white3{
-    color:#130163 ;
+    color:#043391 ;
     margin-left: 5px;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: 10px;
+    padding-top: 10px;
     padding-right: 10px;
 
 }
@@ -93,11 +93,10 @@ html, body {
     padding-top: 0.2cm;
     stroke: #020a1f;
     padding-left: 5px;
-    
-    
+        
 }
 
-.blocktext-white{
+.block{
     font-style: normal;
     font-size: 18px;
     color: #BCECF5;
@@ -108,7 +107,11 @@ html, body {
 }
 
 .w-full{
-    padding-right: 4CM;
+    padding-right: 2CM;
+    padding-left: 100px;
+    margin-left: 0;
+    padding-top: 0.5cm;
+    
 }
 
 
@@ -127,11 +130,11 @@ html, body {
 
 /* Form container */
 .bg-teal-800 {
-    background-color: #013F4D; /* Page background color */
+    background-color: #0e1929; /* Page background color */
 }
 
 .bg-teal-700 {
-    background-color: #015A63; /* Slightly lighter teal for form container */
+    background-color: #1a2c2e; /* Slightly lighter teal for form container */
 }
 
 .text-blue {
@@ -140,10 +143,10 @@ html, body {
 
 input, textarea {
     background-color: #c9eaf5;
-    color: #333;
-    padding: 8px;
+    color: #141414;
+    padding: 2px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 2px solid #080808fe;
     width: 100%;
     font-size: 14px;
     margin-left: 15px;
@@ -153,15 +156,16 @@ input, textarea {
 
 /* Button styling */
 button {
-    background-color: #031f3ba4; /* Dark blue for the submit button */
+    background-color: #06386aa4; /* Dark blue for the submit button */
     color: white;
     font-weight: 700;
     text-transform: uppercase;
     padding: 10px;
     border-radius: 5px;
-    border: rgb(1, 1, 59);
+    border: rgb(3, 3, 121);
     transition: background-color 0.2s;
     margin-left: 5px;
+    margin-bottom: 50px;
 
 }
 
@@ -192,12 +196,25 @@ a:hover {
 
 .Contact_numbers{
     padding-top: 0.5cm;
-    padding-left:5px 
+    padding-left:5px;
+    color: #60a5fa;
+
+
 }
+
 
 .text-white5{
     padding-left: 3.6cm;
-    
+    padding-bottom: -1cm;
+    color: #60a5fa;
+}
+
+.email{
+    font-size: 17px;
+    color: #60a5fa;
+    padding-bottom: 1cm;
+    margin-left: 5px;
+    padding-top: 10px;
 }
 
 /* Responsive styles */

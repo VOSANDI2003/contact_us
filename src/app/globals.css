@@ -7,16 +7,9 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
-    background-color: #010b29; /* Dark teal background color for the page */
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 30px;
-    margin-bottom:20px;
-    padding-left: 4cm;
-    padding-right: 4cm;
-    padding-top: 0.5cm;
-    padding-bottom: 0.5cm;
-    box-sizing: border-box;
+    background-color: #0d141e; /* Dark teal background color for the page */
+    padding-top: -10px;
+    
   
 }
 
@@ -46,7 +39,26 @@ html, body {
     padding-left: 20px;
 }
 
+.phara{
+    color: #fafafd;
+    font-size: 20px;
+    font-style: italic;
+    font-family: serif;
+    margin-right: 5CM;
+    margin-left: 5CM;
+    margin-top: 0CM;
+    padding-top: 0.5CM;
+   
+}
 
+.last{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #fafafd;
+    font-family: serif;
+   margin-left:5CM ;
+}
     
 
 .button-container {
@@ -55,16 +67,22 @@ html, body {
     align-items: center; /* Aligns buttons vertically in the middle */
     margin-left: 20cm;
     margin-bottom: 5px;
+    
   }
   
-
+.flex{
+    padding-bottom: 15px;
+    padding-top: -5px;
+}
 
 .text-white1{
     color:#8fdced ;
-    margin-left: 5px;
+    margin-left: 2CM;
     margin-top: 10px;
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+
 
 }
 
@@ -73,7 +91,9 @@ html, body {
     margin-left: 5px;
     margin-top: 10px;
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+
       
 }
 
@@ -83,6 +103,7 @@ html, body {
     margin-top: 10px;
     padding-top: 10px;
     padding-right: 10px;
+    padding-bottom: 15px;
 
 }
 
@@ -90,29 +111,39 @@ html, body {
     font-style: normal;
     font-size: 18px;
     color: #BCECF5;
-    padding-top: 0.2cm;
+    padding-top: 0.5cm;
     stroke: #020a1f;
-    padding-left: 5px;
+    padding-left: 2CM;
         
+}
+
+.blocktext-white{
+    font-style: normal;
+    font-size: 18px;
+    color: #BCECF5;
+    padding-top: 0.5cm;
+    stroke: #020a1f;
+    padding-left: 2CM;
+    padding-right: -1.8cm;
 }
 
 .block{
     font-style: normal;
     font-size: 18px;
     color: #BCECF5;
-    padding-top: 0.3cm;
+    margin-top: 0CM;
     stroke: #020a1f;
-    padding-left: 5px;
+    padding-left: 2CM;
+    padding-top: 100cm;
+   
+   
    
 }
 
-.w-full{
-    padding-right: 2CM;
-    padding-left: 100px;
-    margin-left: 0;
-    padding-top: 0.5cm;
+
     
-}
+    
+
 
 
 .text-4xl{
@@ -135,27 +166,58 @@ html, body {
 
 .bg-teal-700 {
     background-color: #1a2c2e; /* Slightly lighter teal for form container */
+    margin-top:-14.5px;
 }
 
 .text-blue {
     color: #020a1f; /* A light blue color for labels */
 }
 
-input, textarea {
+.w-full30 {
     background-color: #c9eaf5;
     color: #141414;
-    padding: 2px;
+    padding: 8px;
     border-radius: 5px;
     border: 2px solid #080808fe;
-    width: 100%;
+    width: 10CM;
     font-size: 14px;
-    margin-left: 15px;
+    margin-left: 2.5CM;
+   margin-right: 0CM;
+   padding-right: -100CM;
+   margin-top: 0.5CM;
+}
+.w-full31{
+    background-color: #c9eaf5;
+    color: #141414;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #080808fe;
+    width: 10CM;
+    font-size: 14px;
+    margin-left: 2.3CM;
+   margin-right: 0CM;
+   padding-right: -100CM;
+   margin-top: 0.5CM;
+}
+.w-full32{
+    background-color: #c9eaf5;
+    color: #141414;
+    padding: 8px;
+    border-radius: 5px; 
+    border: 2px solid #080808fe;
+    width: 10CM;
+    font-size: 14px;
+    margin-left: 1.85CM;
+   margin-right: 0CM;
+   padding-right: -100CM;
+   margin-top: 0.5CM;
 }
 
 
 
+
 /* Button styling */
-button {
+.button {
     background-color: #06386aa4; /* Dark blue for the submit button */
     color: white;
     font-weight: 700;
@@ -164,12 +226,12 @@ button {
     border-radius: 5px;
     border: rgb(3, 3, 121);
     transition: background-color 0.2s;
-    margin-left: 5px;
+    margin-left: 6CM;
     margin-bottom: 50px;
 
 }
 
-button:hover {
+.button:hover {
     background-color: #003d80; /* Darker blue on hover */
     
 }
@@ -185,7 +247,7 @@ a {
     font-size: 18px;
 }
 
-a:hover {
+.a:hover {
     text-decoration: underline;
 }
 
@@ -198,71 +260,38 @@ a:hover {
     padding-top: 0.5cm;
     padding-left:5px;
     color: #60a5fa;
+    font-size: 20px;
+    margin-left: 2CM;
 
 
 }
 
 
 .text-white5{
-    padding-left: 3.6cm;
-    padding-bottom: -1cm;
+    padding-left: 4.5cm;
+    padding-bottom: -1.5cm;
     color: #60a5fa;
+    font-size: 20px;
+    margin-left: 74PX;
+
 }
 
 .email{
-    font-size: 17px;
+    font-size: 20px;
     color: #60a5fa;
     padding-bottom: 1cm;
-    margin-left: 5px;
-    padding-top: 10px;
+    margin-left: 2CM;
+    padding-top: 20px;
 }
 
 /* Responsive styles */
 @media (max-width: 640px) {
-    h1 {
+.h1 {
         font-size: 2rem;
     }
 
-    button {
+.button {
         font-size: 12px;
     }
 }
 
-footer {
-    background-color: #0d141e; /* Dark gray background */
-    color: white; /* White text color */
-    padding: 60px 00px; /* Vertical padding */
-    text-align: center; /* Center-align text */
-    
-    margin-top: 0px;
-    margin-right: -2px;
-    
-  }
-  
-  footer p {
-    text-align: center; /* Remove default margins */
-    font-size: 16px; /* Font size */
-  }
-  
-  footer .footer-links {
-    margin-top: 200px; /* Space between the text and the links */
-   
-  }
-  
-  footer a {
-    color: #60a5fa; /* Light blue color for links */
-    margin: 0 15px; /* Horizontal spacing between links */
-    text-decoration: none; /* Remove underline */
-    
-  }
-  
-  footer a:hover {
-    color: #41679c; /* Slightly darker blue on hover */
-  }
-  
-  @media (min-width: 768px) {
-    footer {
-      text-align: center; /* Left-align for larger screens */
-      padding-left: 20px; /* Slight left padding */
-    }
-  } 

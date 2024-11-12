@@ -11,13 +11,13 @@ export default function Footer() {
                 <div>
                     <h4>Use cases</h4>
                     <ul>
-                        <li><Link href="#">Canvas</Link></li>
+                        <li><Link href="#">Moodle</Link></li>
                         <li><Link href="#"> Blackboard</Link></li>
-                        <li><Link href="#"> Moodle</Link></li>
+                        <li><Link href="#"> Canvas</Link></li>
                         <li><Link href="#">Edmodo</Link></li>
                         <li><Link href="#">Google</Link></li>
-                        <li><Link href="#"> Microsoft Teams for Education</Link></li>
                         <li><Link href="#"> Socrative</Link></li>
+                        <li><Link href="#"> Microsoft Teams for Education</Link></li>
                     </ul>
                 </div>
                 <div>
